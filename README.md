@@ -1,1 +1,1 @@
-To compile you'll need to run this command in your terminal "npn install".
+To compile you'll need to run this command in your terminal "npm install".
