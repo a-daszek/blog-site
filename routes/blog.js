@@ -11,7 +11,7 @@ router.get("/posts", function(req, res){
 });
 
 router.get("/new-post", function(req, res){
-    res.render("new-post");
+    res.render("create-post");
 })
 
 module.exports = router;
