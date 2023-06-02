@@ -14,12 +14,12 @@ main {
 
 a {
   text-decoration: none;
-  color:rgb(89, 0, 255);
+  color:rgb(9, 151, 149);
 }
 
 a:hover,
 a:active {
-  color:rgb(232, 90, 245);
+  color:rgb(25, 91, 234);
 }
 
 ul, ol {
@@ -32,8 +32,8 @@ ul, ol {
 .btn {
   cursor: pointer;
   font: inherit;
-  background-color: rgb(89, 0, 255);
-  border: 1px solid rgb(89, 0, 255);
+  background-color: rgb(9, 151, 149);
+  border: 1px solid rgb(9, 151, 149);
   color: white;
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
@@ -41,25 +41,25 @@ ul, ol {
 
 .btn:hover,
 .btn:active {
-  background-color: rgb(71, 4, 196);
-  border-color: rgb(71, 4, 196);
+  background-color: rgb(19, 193, 138);
+  border-color: rgb(19, 193, 138);
   color: white;
 }
 
 .btn.btn-alt {
   background-color: transparent; 
   border-color: transparent;
-  color:rgb(89, 0, 255);
+  color:rgb(9, 151, 149);
 }
 
 .btn.btn-alt:hover,
 .btn.btn-alt:active {
-  color:rgb(232, 90, 245);
+  color:rgb(25, 91, 234);
 }
 
 #main-header {
   padding: 2rem 10%;
-  background-color: rgb(89, 0, 255);
+  background-color: rgb(9, 151, 149);
   display: flex;
   justify-content: space-between;
   align-items: center;
