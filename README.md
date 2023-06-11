@@ -1,1 +1,1 @@
-To compile you'll need to run this command in your terminal "npm install".
+Simple blog site, where you can view, add, edit and delete posts, integrated with database.
