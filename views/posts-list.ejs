@@ -2,15 +2,26 @@
 <html lang="en">
 
 <head>
-  <%- include('includes/head', { title: 'All Posts' }) %>
+  <%- include("includes/head", { title: "All Posts" }) %>
   <link rel="stylesheet" href="/styles/posts.css">
 </head>
 
 <body>
-  <%- include('includes/header') %>
+  <%- include("includes/header") %>
   <main id="all-posts">
     <h1>All Posts</h1>
-   
+    <% if (!posts || posts.lenght === 0) { %>
+        <p>No posts found, sorry! But you can create one!</p>
+        <a class="btn" href="/new-post">Create a post!</a>
+    <% } else { %>
+      <ol id="posts-list">
+        <% for (const post of posts) { %>
+          <li>
+            <%- include("includes/post-item", { post: post }) %>
+          </li>
+        <% } %>  
+      </ol>
+    <% } %>
   </main> 
 </body>
 
